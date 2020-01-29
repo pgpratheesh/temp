@@ -1,0 +1,16 @@
+{ "system_parameter":[
+           {"Name":"package1", "Value":"1234", "Type": "String", "Description": "Test1"},
+           {"Name":"package2", "Value":"4567", "Type": "String", "Description": "Test2"},
+           {"Name":"package3", "Value":"8901", "Type": "String", "Description": "Test3"},
+           {"Name":"package4", "Value":"2345", "Type": "String", "Description": "Test4"}
+       ],
+
+
+
+  "secret_parameter":[
+           {"kms_key_id": "5680", "Name": "tutorials/MyFirstTutorialSecret", "Value":"1234", "Type": "String", "Description": "My First Secret"},
+           {"kms_key_id": "5680", "Name":"scr2", "Value":"4567", "Type": "String", "Description": "Test2"},
+           {"kms_key_id": "5680", "Name":"scr3", "Value":"8901", "Type": "String", "Description": "Test3"},
+           {"kms_key_id": "5680", "Name":"scr4", "Value":"2345", "Type": "String", "Description": "Test4"}
+       ]
+}
